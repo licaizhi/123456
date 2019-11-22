@@ -38,6 +38,15 @@ public class Result {
         return date;
     }
 
+    @Override
+    public String toString() {
+        return "Result{" +
+                "code='" + code + '\'' +
+                ", date=" + date +
+                ", errorMsg='" + errorMsg + '\'' +
+                '}';
+    }
+
     public void setDate(Object date) {
         this.date = date;
     }
